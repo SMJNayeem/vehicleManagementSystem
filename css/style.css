@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1  !important;
+    margin: 0px;
+    padding: 0px;
+}
+#body{
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+section{
+    padding: 20px;
+}
+#bgOpacity{
+    background-image: linear-gradient(180deg, #0000009e 80%, #21212185 90%);
+/* opacity: 0.5; */}
+.container {width: 1100px;margin: auto;} 
+.navContact {/* display: block; */overflow: hidden;float: right; color: white;width: 21%;}
+
+.navContact span i {float: left;overflow: hidden;padding: 15px;}
+
+.navItem ul li {overflow: hidden;display: block;float: left;list-style: none;padding: 0px 25px;font-size: 20px;}
+
+.navItem ul li a {text-decoration: none;color: wheat;float: left;display: block;}
+
+.logo {display: block;overflow: hidden;float: left;width: 12%;}
+
+.navbar {padding: 50px 0px;display: flex;}
+.navContact span p {float: right;display: block;overflow: hidden;}
+.navItem {width: 70%;float: right;}
+
+.first {text-align: center;color: #27cf32; padding: 100px 0px;}
+
+.first h1 {font-size: 40px;}
+
+.first p {font-size: 20px;}
+
+.first button {padding: 12px 35px;border-radius: 10px;overflow: hidden;outline: none;background: darkseagreen;color: white;border: navajowhite;font-size: 20px;}
+
+/* About Us */
+
+.aboutUs{
+    background-color: white;
+}
+
+.aboutInfo img{
+    max-width: 50%;width: 45%;
+    overflow: hidden;
+float: left;display: block;padding-right: 30px;;;;;;;}
+.aboutWrapper h1 {text-align: center;padding: 20px;font-size: 35px;font-family: arial black;margin-bottom: 30px;}
+.aboutInfo div {display: block;overflow: hidden;width: 50%;line-height: 30px;margin: 0px;}
+.aboutInfo div h5 {font-weight: bold;font-size: 16px;margin-bottom: -5px;}
+
+.aboutInfo div ul {margin-bottom: -15px;}
+
+.aboutInfo div button {font-size: 15px;text-transform: uppercase;padding: 10px 15px;font-weight: 700;letter-spacing: 2px;background-color: transparent;overflow: hidden;border-style: solid;border-color: blue;border-width: 3px;box-shadow: 1px 1px 8px 1px rgb(0 0 0 / 50%);}
+
+/*Booking*/
+section#booking {background-color: #5e4444; overflow: hidden;height: fit-content;padding-bottom: 100px;}
+
+.contacts {width: 21%;overflow: hidden;margin: auto;background-color: white;padding: 100px 50px;padding-left: 80px;}
+
+.bookimgWrapper {padding: 40px 0px;height: fit-content;}
+
+.contactsIcon {float: left;overflow: hidden;font-size: 30px;padding-top: 15px;}
+
+.contactsInfo {display: block;overflow: hidden;font-size: 20px;padding-left: 15px;}
+.contactsInfo p {font-weight: bold;font-size: 18px;}
+
+.contactsInfo span {font-weight: lighter;font-size: 17px;}
+.bookingForm {width: 58%;float: left;overflow: hidden;display: block;margin-left: 40px;background-color: red;padding: 0px 30px;}
+
+.bookingForm h1 {text-align: center;font-size: 27px;padding-bottom: 15px;}
+
+.bookingForm div label {display: block;overflow: hidden;padding: 5px 0px;font-size: 17px;}
+
+.bookingForm div input {margin-bottom: 10px;border-width: 0px 0px 1px 0px;background: transparent;color: rgb(60 59 76 / 82%);width: 85%;font-size: 15px;}
+
+.bookingForm div {float: left;width: 50%;overflow: hidden;display: block;}
+.passenger {display: block;overflow: hidden;width: 60% !important;}
+
+.bookingForm div select {width: 90%;padding: 5px;background: transparent;border-width: 0px 0px 1px 0px;}
+.etcInfo {width: 100% !important;margin-top: 10px;}
+.bookingForm button {display: block;overflow: hidden;font-size: 20px;padding: 7px 20px;float: left;text-align: center;margin: 20px 37%;border: none;border-radius: 3px;}
+.contactsWrapper {margin-bottom: 10px;}
+
+.contactsWrapper:last-child {margin: 0px;}
