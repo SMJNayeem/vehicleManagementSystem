@@ -1,0 +1,154 @@
+.gabanav {
+  margin-top: 5px;
+  padding-top: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0px;
+
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #2f2f2f;
+  transition: background-color 200ms linear;
+}
+
+.navbar-inverse .navbar-nav>li {
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 30px;
+  }
+}
+
+.jumbotron {
+  padding-top: 38px;
+  padding-bottom: 30px;
+  padding-left: 26px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #282931;
+}
+
+.jumbotron h2 {
+  color: indianred;
+
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 200;
+  color: #ffffff;
+  margin-left: 0px;
+}
+
+
+
+/*slider*/
+
+
+.slider {
+  width: 100%;
+  margin: 0px auto;
+  height: 100%;
+}
+
+.slick-slide {
+  margin: 0px 50px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #282931;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .5s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+/*end slider*/
+
+
+
+.section {
+  margin: 10px;
+  padding: 20px;
+}
+
+/* about us */
+
+.aboutUs {
+  background-color: white;
+  /* margin: 10px;
+  padding: 20px; */
+}
+
+.aboutInfo img {
+  max-width: 50%;
+  width: 45%;
+  overflow: hidden;
+  float: left;
+  display: block;
+  padding-right: 30px;
+}
+
+.aboutWrapper h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 35px;
+  font-family: arial black;
+  margin-bottom: 30px;
+}
+
+.aboutInfo div {
+  display: block;
+  overflow: hidden;
+  width: 50%;
+  line-height: 30px;
+  margin: 0px;
+}
+
+.aboutInfo div h5 {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: -5px;
+}
+
+.aboutInfo div ul {
+  margin-bottom: 15px;
+}
+
+/* .aboutInfo div button {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background-color: transparent;
+  overflow: hidden;
+  border-style: solid;
+  border-color: #5cb85c !important;
+  border-width: 3px;
+  box-shadow: 1px 1px 8px 1px rgb(0 0 0 / 50%);
+} */
